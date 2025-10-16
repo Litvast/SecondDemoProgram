@@ -36,7 +36,7 @@ public class AppController {
 
     @FXML
     private void initialize() {
-        humans = FXCollections.observableArrayList("Охламон", "Обалдуй", "Колоша", "Воздухан", "Жидкий");
+        humans = FXCollections.observableArrayList("Тимур", "Ксения", "Стефания", "Денис", "Никита");
         historyChanges = new ArrayList<>();
         listNames.setItems(humans);
         deleteButton.setImage(new Image(getClass().getResourceAsStream("bin.png")));
